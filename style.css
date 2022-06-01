@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    background-color: brown;
+}
+/* navbar */
+.navbar{
+    background-color: aqua;
+}
+
+/* main container */
+.main{
+    background-color: blue;
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+.side-links{
+    background-color: yellow;
+}
+.videos{
+    background-color: green;
+}
